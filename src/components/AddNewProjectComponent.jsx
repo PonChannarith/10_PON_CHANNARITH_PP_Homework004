@@ -197,7 +197,7 @@ export default function AddNewProjectComponent({searchQuery}) {
       )}
 
       {/* Displaying Projects as Cards */}
-      <div className="mt-5 grid grid-cols-3 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {filterData.map((project, index) => (
           <CardComponent key={index} project={project} />
         ))}
